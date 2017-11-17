@@ -1,0 +1,25 @@
+//
+//  FFScrollViewPrefixHeader.pch
+//  FFScrollView
+//
+//  Created by MichaelMao on 2017/11/11.
+//  Copyright © 2017年 GlobalScanner. All rights reserved.
+//
+
+#ifndef FFScrollViewPrefixHeader_pch
+#define FFScrollViewPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+
+#import "Config.h"
+#import "MJRefresh.h"
+#import "SDWebImageManager.h"
+#import "SDWebImageManager+MJ.h"
+
+#import "UIView+Size.h"
+#import "UIColor+Hex.h"
+#import "NSDictionary+Value.h"
+
+#endif /* FFScrollViewPrefixHeader_pch */
